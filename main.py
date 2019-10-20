@@ -7,7 +7,6 @@ class MyWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title="Convert DEZ")
 
-        #self.set_default_size(280, 180)
         self.width = 2
         grid = Gtk.Grid()
         self.add(grid)
